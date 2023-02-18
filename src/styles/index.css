@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html,body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #F2F2F2;
+}
+
+#root {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.modal-default {
+  @apply p-5 md:p-7 font-ubuntu text-primary-dark max-md:mx-auto;
+}
+
+.nav-link {
+  @apply max-md:mt-4 text-base font-medium text-gray hover:text-primary;
+}
