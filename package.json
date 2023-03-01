@@ -1,6 +1,6 @@
 {
-  "name": "flower-spot",
-  "description": "Flower spotting application",
+  "name": "pokemon_app",
+  "description": "Pokemon application",
   "version": "0.1.0",
   "private": true,
   "scripts": {
