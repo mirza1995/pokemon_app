@@ -1,9 +1,16 @@
+import { Navbar } from '@components/Navbar';
+
 type PageProps = {
   children: React.ReactNode;
 };
 
 const Page = (props: PageProps) => {
-  return <>{props.children}</>;
+  return (
+    <>
+      <Navbar />
+      {props.children}
+    </>
+  );
 };
 
 export default Page;

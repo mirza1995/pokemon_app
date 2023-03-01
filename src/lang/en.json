@@ -1,0 +1,47 @@
+{
+  "ok": "OK",
+  "profile": "PROFILE",
+
+  "navbar.pokemons": "Pokemons",
+  "navbar.sightings": "Sightings",
+  "navbar.favorites": "Favorites",
+  "navbar.login": "Login",
+  "navbar.signup": "New Account",
+
+  "sightings.singular": "1 sighting",
+  "sightings.plural": "{number} sightings",
+
+  "login.welcome": "Welcome Back",
+  "login.email": "Email Address",
+  "login.password": "Password",
+  "login.button": "Login to your Account",
+  "login.button.close": "I don't want to Login",
+  "login.success": "Congratulations! You have successfully logged into Pokedex!",
+
+  "signup.create": "Create an Account",
+  "signup.firstName": "First Name",
+  "signup.lastName": "Last Name",
+  "signup.birthDate": "Date of Birth",
+  "signup.email": "Email Address",
+  "signup.password": "Password",
+  "signup.button": "Create Account",
+  "signup.button.close": "I don't want to register",
+  "signup.success": "Congratulations! You have successfully signed up for FlowrSpot!",
+
+  "profile.logout": "Logout",
+  "profile.firstName": "First Name",
+  "profile.lastName": "Last Name",
+  "profile.birthDate": "Date of Birth",
+  "profile.email": "Email Address",
+  "profile.notLoggedIn": "You are not logged in.",
+
+  "main.page.banner.discover": "Discover pokemons around you",
+  "main.page.banner.explore": "Explore between more than {count} pokemons",
+
+  "search.input.placeholder": "Looking for something specific?",
+
+  "errors.email.invalid": "Email is not valid",
+  "errors.password.invalid": "Password must be six or more characters",
+  "errors.firstName.invalid": "First name is required",
+  "errors.lastName.invalid": "Last name is required"
+}
