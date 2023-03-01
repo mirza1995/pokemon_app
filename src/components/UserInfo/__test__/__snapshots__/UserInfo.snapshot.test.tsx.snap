@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Info component renders correctly 1`] = `
+<div
+  className="modal-default"
+>
+  <div
+    className="px-[18px] pb-[30px] md:px-[100px] md:pt-[40px]"
+  >
+    <div
+      className="flex items-center"
+    >
+      <img
+        src=""
+        width="80"
+      />
+      <div
+        className="ml-7"
+      >
+        <h2
+          className="text-xl font-light"
+        >
+          Name Surname
+        </h2>
+        <p
+          className="mt-[6px] text-md font-normal text-gray"
+        >
+          0 sightings
+        </p>
+      </div>
+    </div>
+    <div
+      className="pt-2.5"
+    >
+      <div
+        className="mt-7"
+      >
+        <div
+          className="text-xs font-normal text-gray"
+        >
+          First Name
+        </div>
+        <h5
+          className="mt-4 text-title font-normal"
+        >
+          Name
+        </h5>
+      </div>
+      <div
+        className="mt-7"
+      >
+        <div
+          className="text-xs font-normal text-gray"
+        >
+          Last Name
+        </div>
+        <h5
+          className="mt-4 text-title font-normal"
+        >
+          Surname
+        </h5>
+      </div>
+    </div>
+    <div
+      className="mx-auto w-[147px] pt-[80px] md:pt-[70px]"
+    >
+      <button
+        className="w-full rounded-3 bg-primary-light py-4.5 text-base text-white shadow-3xl"
+        onClick={[Function]}
+      >
+        Logout
+      </button>
+    </div>
+  </div>
+</div>
+`;

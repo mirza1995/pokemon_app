@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component renders correctly 1`] = `
+<div
+  className="modal-default sm:w-[440px] "
+>
+  <h4
+    className="text-center text-lg font-medium"
+  >
+    Welcome Back
+  </h4>
+  <form
+    className="mt-7"
+    onSubmit={[Function]}
+  >
+    <div>
+      <div
+        className="relative mt-2.5 flex-1"
+        onClick={[Function]}
+      >
+        <input
+          className="
+          block h-[50px] w-full rounded-3 border bg-gray-1 px-4
+          pb-2.5 pt-6 text-md 
+          font-normal text-primary-dark border-gray-2 
+          peer appearance-none
+          focus:border-primary focus:outline-none focus:ring-0"
+          data-testid="email"
+          name="email"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          placeholder=" "
+          type="text"
+          value=""
+        />
+        <label
+          className=" absolute top-6 left-4 z-10 origin-[0] -translate-y-4 scale-75 text-md font-normal text-gray duration-300 peer-placeholder-shown:translate-y-0  peer-placeholder-shown:scale-100 peer-focus:-translate-y-4  peer-focus:scale-75"
+        >
+          Email Address
+        </label>
+      </div>
+      <div
+        className="relative mt-2.5 flex-1"
+        onClick={[Function]}
+      >
+        <input
+          className="
+          block h-[50px] w-full rounded-3 border bg-gray-1 px-4
+          pb-2.5 pt-6 text-md 
+          font-normal text-primary-dark border-gray-2 
+          peer appearance-none
+          focus:border-primary focus:outline-none focus:ring-0"
+          data-testid="password"
+          name="password"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          placeholder=" "
+          type="password"
+          value=""
+        />
+        <label
+          className=" absolute top-6 left-4 z-10 origin-[0] -translate-y-4 scale-75 text-md font-normal text-gray duration-300 peer-placeholder-shown:translate-y-0  peer-placeholder-shown:scale-100 peer-focus:-translate-y-4  peer-focus:scale-75"
+        >
+          Password
+        </label>
+      </div>
+    </div>
+    <div
+      className="mt-5"
+    >
+      <button
+        className="w-full rounded-3 bg-primary-light py-4.5 text-base text-white shadow-3xl"
+        onClick={[Function]}
+        type="submit"
+      >
+        Login to your Account
+      </button>
+    </div>
+  </form>
+</div>
+`;

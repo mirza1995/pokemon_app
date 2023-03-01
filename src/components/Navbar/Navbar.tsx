@@ -4,7 +4,6 @@ import { useCookies } from 'react-cookie';
 import { Link } from 'react-router-dom';
 import { VscMenu } from 'react-icons/vsc';
 import { FormattedMessage } from 'react-intl';
-import logo from '@images/logo.jpg';
 import { NavbarLink } from './NavbarLink';
 import { userSelector } from '@store/store';
 import { UserInfoInline } from '@components/UserInfo';
@@ -175,7 +174,7 @@ export const Navbar = () => {
         <div className='ml-5px flex-1 items-center justify-between md:flex'>
           <div className='flex justify-between'>
             <Link to='/'>
-              <img src={logo} />
+              <h1 className='text-2xl font-bold text-primary'>Pokedex</h1>
             </Link>
 
             <button
@@ -193,7 +192,7 @@ export const Navbar = () => {
               md:w-[606px]
             `}
           >
-            <NavbarLink link='/' textId='navbar.flowers' />
+            <NavbarLink link='/' textId='navbar.pokemons' />
 
             <NavbarLink link='/' textId='navbar.sightings' />
 

@@ -1,5 +1,6 @@
 import { FormattedMessage } from 'react-intl';
 import { IoMdClose } from 'react-icons/io';
+import ReactDOM from 'react-dom';
 
 type ModalProps = {
   children: React.ReactNode;
@@ -16,7 +17,7 @@ export const Modal = ({
   showCloseButton,
   onModalClose
 }: ModalProps) => {
-  return (
+  return ReactDOM.createPortal(
     <div
       className={`
         fixed left-0 z-[8] 
@@ -62,6 +63,7 @@ export const Modal = ({
           </div>
         )}
       </div>
-    </div>
+    </div>,
+    document.getElementById('modal')!
   );
 };
