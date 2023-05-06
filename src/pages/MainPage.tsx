@@ -1,9 +1,6 @@
 import { useEffect, useState } from 'react';
-import { useSelector } from 'react-redux';
 import { FormattedMessage } from 'react-intl';
 import { injectIntl, IntlShape } from 'react-intl';
-
-import { userSelector } from '@store/store';
 import { SearchButton } from '@components/SearchButton';
 import { HelmetWrapper } from '@components/HelmetWrapper';
 import { PokemonsList } from '@components/PokemonsList';
@@ -12,14 +9,13 @@ import { PokemonShortInfo } from '@models/PokemonShortInfo';
 import { PokemonResponse } from '@models/PokemonResponse';
 import pokemonService from '@services/pokemonService';
 import { PokemonsResponse } from '@models/PokemonsResponse';
+import UserLayout from '@components/UserLayout/UserLayout';
 
 type MainPageProps = {
   intl: IntlShape;
 };
 
 const MainPage = ({ intl }: MainPageProps) => {
-  const { user } = useSelector(userSelector);
-
   const [pokemons, setPokemons] = useState<Pokemon[]>([]);
   const [count, setCount] = useState<number>(0);
 
@@ -59,7 +55,7 @@ const MainPage = ({ intl }: MainPageProps) => {
   };
 
   return (
-    <>
+    <UserLayout>
       <HelmetWrapper
         title='Home'
         content='Pokemon list with their names and photos.'
@@ -97,7 +93,7 @@ const MainPage = ({ intl }: MainPageProps) => {
         </div>
       </main>
       <div className='h-5'></div>
-    </>
+    </UserLayout>
   );
 };
 

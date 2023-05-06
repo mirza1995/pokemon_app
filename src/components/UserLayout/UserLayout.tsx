@@ -1,10 +1,10 @@
 import { Navbar } from '@components/Navbar';
 
-type PageProps = {
+type UserLayoutProps = {
   children: React.ReactNode;
 };
 
-const Page = (props: PageProps) => {
+const UserLayout = (props: UserLayoutProps) => {
   return (
     <>
       <Navbar />
@@ -13,4 +13,4 @@ const Page = (props: PageProps) => {
   );
 };
 
-export default Page;
+export default UserLayout;
